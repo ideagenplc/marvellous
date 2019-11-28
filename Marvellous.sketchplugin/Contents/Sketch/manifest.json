@@ -4,28 +4,15 @@
   "version" : "1.0",
   "description" : "Marvellous - Automations for Marvel Exports",
   "authorEmail" : "tim.moore@ideagen.com",
-  "author" : "Tim Moore, Martin Fisher at Ideagen",
+  "author" : "Ideagen UX",
 
   "commands" : [
     {
       "script" : "iconator.js",
       "handler" : "onRun",
-      "shortcut" : "command shift i",
+      "shortcut" : "command option ctrl i",
       "name" : "Iconator",
       "identifier" : "marvellous.plugin.iconator"
-    },
-    {
-      "script" : "tijamo.js",
-      "handler" : "onRun",
-      "name" : "Do Stuff What Tim Made",
-      "identifier" : "marvellous.plugin.tijamo"
-    },
-    {
-      "script" : "rotateArtboard.js",
-      "handler" : "onRun",
-      "shortcut" : "command shift u",
-      "name" : "Rotate Artboard",
-      "identifier" : "marvellous.plugin.rotateartboard"
     }
   ],
 }
